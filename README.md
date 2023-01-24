@@ -9,8 +9,11 @@
 4.コピペ君の中身を作成していく
 
 5.以下のコマンドを実行する 
+	
 	git add .  
+	
 	git commit -m "メッセージ" 
+	
 	git push origin ブランチ名 -u
 
 6.GitHub上でプルリクエストを作成する
