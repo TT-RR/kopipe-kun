@@ -46,5 +46,17 @@ namespace kopipe_kun.Properties {
                 this["Title2"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int ButtonKind {
+            get {
+                return ((int)(this["ButtonKind"]));
+            }
+            set {
+                this["ButtonKind"] = value;
+            }
+        }
     }
 }
