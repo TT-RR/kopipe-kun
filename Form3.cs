@@ -16,5 +16,10 @@ namespace kopipe_kun
         {
             InitializeComponent();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
