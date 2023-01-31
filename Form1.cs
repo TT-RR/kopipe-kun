@@ -22,5 +22,43 @@ namespace kopipe_kun
 
         }
 
+        private void button11_MouseDown(object sender, MouseEventArgs e)
+        {
+            if(e.Button.ToString() == "Left")
+            {
+
+            }
+            if (e.Button.ToString() == "Right")
+            {
+                Form3 f = new Form3();
+                f.ShowDialog();
+            }
+        }
+
+        private void button12_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button.ToString() == "Left")
+            {
+
+            }
+            if (e.Button.ToString() == "Right")
+            {
+                Form3 f = new Form3();
+                f.ShowDialog();
+            }
+        }
+
+        private void button13_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button.ToString() == "Left")
+            {
+
+            }
+            if (e.Button.ToString() == "Right")
+            {
+                Form3 f = new Form3();
+                f.ShowDialog();
+            }
+        }
     }
 }

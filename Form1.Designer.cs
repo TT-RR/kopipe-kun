@@ -142,6 +142,7 @@ namespace kopipe_kun
             this.button11.TabIndex = 10;
             this.button11.Text = "button11";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button11_MouseDown);
             // 
             // button12
             // 
@@ -151,6 +152,7 @@ namespace kopipe_kun
             this.button12.TabIndex = 11;
             this.button12.Text = "button12";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button12_MouseDown);
             // 
             // button13
             // 
@@ -160,6 +162,7 @@ namespace kopipe_kun
             this.button13.TabIndex = 12;
             this.button13.Text = "button13";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button13_MouseDown);
             // 
             // Form1
             // 
