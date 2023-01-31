@@ -14,6 +14,7 @@ namespace kopipe_kun
     {
         public Form1()
         {
+            Properties.Settings.Default.ButtonKind = 1;
             InitializeComponent();
         }
 
