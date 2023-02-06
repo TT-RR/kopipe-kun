@@ -790,5 +790,17 @@ namespace kopipe_kun.Properties {
                 this["TabName3"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Title4 {
+            get {
+                return ((string)(this["Title4"]));
+            }
+            set {
+                this["Title4"] = value;
+            }
+        }
     }
 }
