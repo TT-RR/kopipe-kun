@@ -47,7 +47,7 @@ namespace kopipe_kun
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(4, 55);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(216, 42);
             this.button1.TabIndex = 0;
@@ -58,7 +58,7 @@ namespace kopipe_kun
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(4, 96);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(216, 42);
             this.button2.TabIndex = 1;
@@ -69,7 +69,7 @@ namespace kopipe_kun
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(4, 137);
-            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(216, 42);
             this.button3.TabIndex = 2;
@@ -80,7 +80,7 @@ namespace kopipe_kun
             // button4
             // 
             this.button4.Location = new System.Drawing.Point(4, 177);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(216, 42);
             this.button4.TabIndex = 3;
@@ -91,7 +91,7 @@ namespace kopipe_kun
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(4, 218);
-            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button5.Margin = new System.Windows.Forms.Padding(2);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(216, 42);
             this.button5.TabIndex = 4;
@@ -102,7 +102,7 @@ namespace kopipe_kun
             // button6
             // 
             this.button6.Location = new System.Drawing.Point(4, 259);
-            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button6.Margin = new System.Windows.Forms.Padding(2);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(216, 42);
             this.button6.TabIndex = 5;
@@ -113,7 +113,7 @@ namespace kopipe_kun
             // button7
             // 
             this.button7.Location = new System.Drawing.Point(4, 300);
-            this.button7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(216, 42);
             this.button7.TabIndex = 6;
@@ -124,7 +124,7 @@ namespace kopipe_kun
             // button8
             // 
             this.button8.Location = new System.Drawing.Point(4, 341);
-            this.button8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button8.Margin = new System.Windows.Forms.Padding(2);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(216, 42);
             this.button8.TabIndex = 7;
@@ -135,7 +135,7 @@ namespace kopipe_kun
             // button9
             // 
             this.button9.Location = new System.Drawing.Point(4, 382);
-            this.button9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button9.Margin = new System.Windows.Forms.Padding(2);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(216, 42);
             this.button9.TabIndex = 8;
@@ -146,7 +146,7 @@ namespace kopipe_kun
             // button10
             // 
             this.button10.Location = new System.Drawing.Point(4, 422);
-            this.button10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(216, 42);
             this.button10.TabIndex = 9;
@@ -157,7 +157,7 @@ namespace kopipe_kun
             // button11
             // 
             this.button11.Location = new System.Drawing.Point(4, 1);
-            this.button11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(72, 54);
             this.button11.TabIndex = 10;
@@ -168,7 +168,7 @@ namespace kopipe_kun
             // button12
             // 
             this.button12.Location = new System.Drawing.Point(76, 1);
-            this.button12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(72, 54);
             this.button12.TabIndex = 11;
@@ -179,7 +179,7 @@ namespace kopipe_kun
             // button13
             // 
             this.button13.Location = new System.Drawing.Point(148, 1);
-            this.button13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(72, 54);
             this.button13.TabIndex = 12;
@@ -191,6 +191,7 @@ namespace kopipe_kun
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(224, 468);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
@@ -205,11 +206,12 @@ namespace kopipe_kun
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "TOP";
+            this.Activated += new System.EventHandler(this.Form1_Activated);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

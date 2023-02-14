@@ -24,9 +24,9 @@ namespace kopipe_kun
 
             if (Properties.Settings.Default.ButtonKind == 1)
             {
-                button1.BackColor = Color.DeepSkyBlue;
-                button2.BackColor = Color.DarkGray;
-                button3.BackColor = Color.DarkGray;
+                button11.BackColor = Color.DeepSkyBlue;
+                button12.BackColor = Color.DarkGray;
+                button13.BackColor = Color.DarkGray;
 
                 button1.Text = Properties.Settings.Default.Title1;
                 button2.Text = Properties.Settings.Default.Title2;
@@ -41,9 +41,9 @@ namespace kopipe_kun
             }
             else if (Properties.Settings.Default.ButtonKind == 2)
             {
-                button1.BackColor = Color.DarkGray;
-                button2.BackColor = Color.DeepSkyBlue;
-                button3.BackColor = Color.DarkGray;
+                button11.BackColor = Color.DarkGray;
+                button12.BackColor = Color.DeepSkyBlue;
+                button13.BackColor = Color.DarkGray;
 
                 button1.Text = Properties.Settings.Default.Title11;
                 button2.Text = Properties.Settings.Default.Title12;
@@ -58,9 +58,9 @@ namespace kopipe_kun
             }
             else if (Properties.Settings.Default.ButtonKind == 3)
             {
-                button1.BackColor = Color.DarkGray;
-                button2.BackColor = Color.DeepSkyBlue;
-                button3.BackColor = Color.DarkGray;
+                button11.BackColor = Color.DarkGray;
+                button12.BackColor = Color.DarkGray;
+                button13.BackColor = Color.DeepSkyBlue;
 
                 button1.Text = Properties.Settings.Default.Title21;
                 button2.Text = Properties.Settings.Default.Title22;
@@ -89,7 +89,8 @@ namespace kopipe_kun
         {
             if(e.Button.ToString() == "Left")
             {
-
+                Properties.Settings.Default.ButtonKind = 1;
+                Load1();
             }
             if (e.Button.ToString() == "Right")
             {
@@ -102,7 +103,8 @@ namespace kopipe_kun
         {
             if (e.Button.ToString() == "Left")
             {
-
+                Properties.Settings.Default.ButtonKind = 2;
+                Load1();
             }
             if (e.Button.ToString() == "Right")
             {
@@ -115,7 +117,8 @@ namespace kopipe_kun
         {
             if (e.Button.ToString() == "Left")
             {
-
+                Properties.Settings.Default.ButtonKind = 3;
+                Load1();
             }
             if (e.Button.ToString() == "Right")
             {
@@ -157,21 +160,21 @@ namespace kopipe_kun
         private void button2_MouseDown(object sender, MouseEventArgs e)
         {
             //対応したボタンを押したときにformを表示
-            Properties.Settings.Default.ButtonNumber = 1;
+            Properties.Settings.Default.ButtonNumber = 2;
 
             if (e.Button.ToString() == "Left")
             {
                 if (Properties.Settings.Default.ButtonKind == 1)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content1);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content2);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 2)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content11);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content12);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 3)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content21);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content22);
                 }
             }
             else if (e.Button.ToString() == "Right")
@@ -184,21 +187,21 @@ namespace kopipe_kun
         private void button3_MouseDown(object sender, MouseEventArgs e)
         {
             //対応したボタンを押したときにformを表示
-            Properties.Settings.Default.ButtonNumber = 1;
+            Properties.Settings.Default.ButtonNumber = 3;
 
             if (e.Button.ToString() == "Left")
             {
                 if (Properties.Settings.Default.ButtonKind == 1)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content1);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content3);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 2)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content11);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content13);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 3)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content21);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content23);
                 }
             }
             else if (e.Button.ToString() == "Right")
@@ -211,21 +214,21 @@ namespace kopipe_kun
         private void button4_MouseDown(object sender, MouseEventArgs e)
         {
             //対応したボタンを押したときにformを表示
-            Properties.Settings.Default.ButtonNumber = 1;
+            Properties.Settings.Default.ButtonNumber = 4;
 
             if (e.Button.ToString() == "Left")
             {
                 if (Properties.Settings.Default.ButtonKind == 1)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content1);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content4);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 2)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content11);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content14);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 3)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content21);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content24);
                 }
             }
             else if (e.Button.ToString() == "Right")
@@ -238,21 +241,21 @@ namespace kopipe_kun
         private void button5_MouseDown(object sender, MouseEventArgs e)
         {
             //対応したボタンを押したときにformを表示
-            Properties.Settings.Default.ButtonNumber = 1;
+            Properties.Settings.Default.ButtonNumber = 5;
 
             if (e.Button.ToString() == "Left")
             {
                 if (Properties.Settings.Default.ButtonKind == 1)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content1);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content5);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 2)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content11);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content15);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 3)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content21);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content25);
                 }
             }
             else if (e.Button.ToString() == "Right")
@@ -265,21 +268,21 @@ namespace kopipe_kun
         private void button6_MouseDown(object sender, MouseEventArgs e)
         {
             //対応したボタンを押したときにformを表示
-            Properties.Settings.Default.ButtonNumber = 1;
+            Properties.Settings.Default.ButtonNumber = 6;
 
             if (e.Button.ToString() == "Left")
             {
                 if (Properties.Settings.Default.ButtonKind == 1)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content1);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content6);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 2)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content11);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content16);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 3)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content21);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content26);
                 }
             }
             else if (e.Button.ToString() == "Right")
@@ -292,21 +295,21 @@ namespace kopipe_kun
         private void button7_MouseDown(object sender, MouseEventArgs e)
         {
             //対応したボタンを押したときにformを表示
-            Properties.Settings.Default.ButtonNumber = 1;
+            Properties.Settings.Default.ButtonNumber = 7;
 
             if (e.Button.ToString() == "Left")
             {
                 if (Properties.Settings.Default.ButtonKind == 1)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content1);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content7);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 2)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content11);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content17);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 3)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content21);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content27);
                 }
             }
             else if (e.Button.ToString() == "Right")
@@ -319,21 +322,21 @@ namespace kopipe_kun
         private void button8_MouseDown(object sender, MouseEventArgs e)
         {
             //対応したボタンを押したときにformを表示
-            Properties.Settings.Default.ButtonNumber = 1;
+            Properties.Settings.Default.ButtonNumber = 8;
 
             if (e.Button.ToString() == "Left")
             {
                 if (Properties.Settings.Default.ButtonKind == 1)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content1);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content8);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 2)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content11);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content18);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 3)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content21);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content28);
                 }
             }
             else if (e.Button.ToString() == "Right")
@@ -346,21 +349,21 @@ namespace kopipe_kun
         private void button9_MouseDown(object sender, MouseEventArgs e)
         {
             //対応したボタンを押したときにformを表示
-            Properties.Settings.Default.ButtonNumber = 1;
+            Properties.Settings.Default.ButtonNumber = 9;
 
             if (e.Button.ToString() == "Left")
             {
                 if (Properties.Settings.Default.ButtonKind == 1)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content1);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content9);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 2)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content11);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content19);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 3)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content21);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content29);
                 }
             }
             else if (e.Button.ToString() == "Right")
@@ -373,21 +376,21 @@ namespace kopipe_kun
         private void button10_MouseDown(object sender, MouseEventArgs e)
         {
             //対応したボタンを押したときにformを表示
-            Properties.Settings.Default.ButtonNumber = 1;
+            Properties.Settings.Default.ButtonNumber = 10;
 
             if (e.Button.ToString() == "Left")
             {
                 if (Properties.Settings.Default.ButtonKind == 1)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content1);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content10);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 2)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content11);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content20);
                 }
                 else if (Properties.Settings.Default.ButtonKind == 3)
                 {
-                    Clipboard.SetDataObject(Properties.Settings.Default.Content21);
+                    Clipboard.SetDataObject(Properties.Settings.Default.Content30);
                 }
             }
             else if (e.Button.ToString() == "Right")
@@ -395,6 +398,11 @@ namespace kopipe_kun
                 Form2 f = new Form2();
                 f.ShowDialog();
             }
+        }
+
+        private void Form1_Activated(object sender, EventArgs e)
+        {
+            Load1();
         }
     }
 }
