@@ -99,10 +99,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\藤原竜也.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\スクリーンショット_20230213_170159.png" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

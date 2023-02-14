@@ -75,7 +75,7 @@ namespace kopipe_kun
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(335, 368);
+            this.button1.Location = new System.Drawing.Point(103, 365);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(60, 49);
             this.button1.TabIndex = 4;
@@ -84,7 +84,7 @@ namespace kopipe_kun
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(421, 368);
+            this.button2.Location = new System.Drawing.Point(189, 365);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(57, 49);
             this.button2.TabIndex = 5;
@@ -96,7 +96,7 @@ namespace kopipe_kun
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(800, 449);
+            this.ClientSize = new System.Drawing.Size(524, 449);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
