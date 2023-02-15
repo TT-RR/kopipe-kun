@@ -217,6 +217,16 @@ namespace kopipe_kun
         //追加
         private void button1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
             buttonKind = Properties.Settings.Default.ButtonKind;
             buttonNumber = Properties.Settings.Default.ButtonNumber;
 
@@ -410,10 +420,11 @@ namespace kopipe_kun
             }
 
             Properties.Settings.Default.Save();
+
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click_1(object sender, EventArgs e)
         {
             this.Close();
         }
