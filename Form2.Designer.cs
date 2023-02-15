@@ -75,7 +75,7 @@ namespace kopipe_kun
             // button1
             // 
             this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(103, 365);
+            this.button1.Location = new System.Drawing.Point(192, 344);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(60, 49);
             this.button1.TabIndex = 4;
@@ -84,7 +84,7 @@ namespace kopipe_kun
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(189, 365);
+            this.button2.Location = new System.Drawing.Point(278, 344);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(57, 49);
             this.button2.TabIndex = 5;
@@ -104,7 +104,7 @@ namespace kopipe_kun
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "コピペ編集";
             this.ResumeLayout(false);
             this.PerformLayout();
 

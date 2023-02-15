@@ -17,7 +17,7 @@ namespace kopipe_kun
         public Form2()
         {
             InitializeComponent();
-        }
 
+        }
     }
 }
