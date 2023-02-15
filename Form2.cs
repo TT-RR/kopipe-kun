@@ -210,7 +210,7 @@ namespace kopipe_kun
                 }
             }
         }
-
+        //追加
         private void button1_Click(object sender, EventArgs e)
         {
             buttonKind = Properties.Settings.Default.ButtonKind;
