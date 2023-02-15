@@ -34,3 +34,15 @@ C:\Users\user\source\repos\kopipe-kun-yuzawa\obj\Debug\kopipe-kun.csproj.Generat
 C:\Users\user\source\repos\kopipe-kun-yuzawa\obj\Debug\kopipe-kun.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\kopipe-kun-yuzawa\obj\Debug\kopipe-kun.exe
 C:\Users\user\source\repos\kopipe-kun-yuzawa\obj\Debug\kopipe-kun.pdb
+C:\Users\user\Documents\Github\kopipe-kun\bin\Debug\kopipe-kun.exe.config
+C:\Users\user\Documents\Github\kopipe-kun\bin\Debug\kopipe-kun.exe
+C:\Users\user\Documents\Github\kopipe-kun\bin\Debug\kopipe-kun.pdb
+C:\Users\user\Documents\Github\kopipe-kun\obj\Debug\kopipe-kun.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Github\kopipe-kun\obj\Debug\kopipe_kun.Form1.resources
+C:\Users\user\Documents\Github\kopipe-kun\obj\Debug\kopipe_kun.Form2.resources
+C:\Users\user\Documents\Github\kopipe-kun\obj\Debug\kopipe_kun.Form3.resources
+C:\Users\user\Documents\Github\kopipe-kun\obj\Debug\kopipe_kun.Properties.Resources.resources
+C:\Users\user\Documents\Github\kopipe-kun\obj\Debug\kopipe-kun.csproj.GenerateResource.cache
+C:\Users\user\Documents\Github\kopipe-kun\obj\Debug\kopipe-kun.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Github\kopipe-kun\obj\Debug\kopipe-kun.exe
+C:\Users\user\Documents\Github\kopipe-kun\obj\Debug\kopipe-kun.pdb
