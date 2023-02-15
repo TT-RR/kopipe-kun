@@ -1,4 +1,4 @@
-﻿
+
 namespace kopipe_kun
 {
     partial class Form1
@@ -234,4 +234,5 @@ namespace kopipe_kun
         private System.Windows.Forms.Button button13;
     }
 }
+
 
