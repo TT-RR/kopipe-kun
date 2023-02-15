@@ -12,7 +12,7 @@ namespace kopipe_kun
 {
     public partial class Form3 : Form
     {
-        //入力機能
+        //入力機能追加
         public Form3()
         {
             InitializeComponent();
