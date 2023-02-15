@@ -104,7 +104,7 @@ namespace kopipe_kun
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
-            this.Text = "Form2";
+            this.Text = "コピペ編集";
             this.ResumeLayout(false);
             this.PerformLayout();
 
